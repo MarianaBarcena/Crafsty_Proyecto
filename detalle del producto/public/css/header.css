@@ -1,0 +1,27 @@
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #fff;
+}
+.header_logo img {
+    width: 100%;
+    max-width: 25%;
+    height: auto;
+}
+
+.header_logo ul li {
+    list-style: none;
+    font-size: 26px;
+color : #5FB9E0;
+font-style: normal;
+line-height: normal;
+}
+.Barra_Nav{
+    display: inline-flex;
+    justify-content: center;
+align-items: center;
+    gap:15px;
+
+}

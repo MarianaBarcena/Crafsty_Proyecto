@@ -1,0 +1,11 @@
+.Estrellas_producto {
+    display:inline-flex;
+gap:5px;
+justify-content: center;
+text-align: center;
+}
+.ProductoIMG {
+    background-color: ;
+    size: 50%;
+    align-items: center;
+}
