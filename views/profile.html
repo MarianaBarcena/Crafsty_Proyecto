@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Craftsy | Registro</title>
+    <title>Craftsy | Perfil de usuario</title>
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="register">
+<body class="profile">
     <header>
         <section>
             <a href="/"><img src="/images/logo.png" alt="Logo Crafsty"> </a>
@@ -31,31 +31,24 @@
     <main class="register__main">
       <section class="box__card">
         <div class="box__card__titulo"> 
-            <h3 >Register  </h3>
+            <h3 >Perfil Usuario </h3>
             <hr>
             <form action="/profile" class="form">
             </div>
         <form  class="form">
             <div class="form__box">
                 <label class="form__label" for="name">Nombre</label>
-                <input class="form__input" id="name" type="text" placeholder="Escribí tu nombre" name="name">
+                <input class="form__input" id="name" type="text" value="Mariana" name="name">
             </div>
             <div class="form__box">
                 <label class="form__label" for="surname">Apellido</label>
-                <input class="form__input" id="surname" type="text" placeholder="Escribí tu apellido" name="surname">
+                <input class="form__input" id="surname" type="text" value="Bárcena" name="surname">
             </div>
             <div class="form__box">
                 <label class="form__label" for="email">Email</label>
-                <input class="form__input" id="email" type="text" placeholder="correo@correo.com" name="email">
+                <input class="form__input" id="email" type="email" readonly value="angelesmbarcena@gmail.com" name="email">
             </div>
-            <div class="form__box">
-                <label class="form__label" for="password">Contraseña</label>
-                <input class="form__input" id="password" type="password" placeholder="Ingresa tu contraseña" name="password">
-            </div>
-            <div class="form__box">
-                <label class="form__label" for="password2">Confirma tu contraseña</label>
-                <input class="form__input" id="password2" type="password" placeholder="Confirma tu contraseña" name="password">
-            </div>
+           
             <div class="form__box">
                 <p>¿Ya estas registrado? <a  class="link" href="/login">Login</a></p>
             </div>
